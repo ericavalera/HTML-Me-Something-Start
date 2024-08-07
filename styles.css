@@ -1,1 +1,103 @@
-/* Write your CSS here! */
+/* use this color palette https://coolors.co/252323-ed6a5a-a491d3-e6ebe0-f3dfa2 */
+/* CSS HEX */
+/* --raisin-black: #252323ff;
+--bittersweet: #ed6a5aff;
+--lavender-floral: #a491d3ff;
+--alabaster: #e6ebe0ff;
+--vanilla: #f3dfa2ff; */
+
+
+* { 
+  padding: 0;
+  margin:0;
+}
+
+body {
+  background: radial-gradient(#a491d3ff,#f3dfa2 );
+  margin-top: 100px;
+  display: block;
+  color: #252323;
+  font-family: "swear-text", serif;;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  display: block;
+}
+
+nav {
+  background: #e6ebe0;
+  position: absolute;
+  width: 100%;
+  padding:0;
+  height:90px;
+  margin:0;
+  left: 0;
+  top: 0;
+}
+
+.nameheader {
+  color: #252323;
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  min-height:65vh;
+  padding: 30px;
+
+}
+#one, #two, #three{
+  padding-right: 20px;
+}
+
+#realheading {
+  color: #252323;
+  font-family: campaign, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+#mainHeading {
+  color: red;
+}
+
+.funParagraph {
+  color: green;
+}
+img{
+  width: 300px;
+  align-self: center;
+  padding-bottom: 20px;
+  border-radius: 50%;
+  padding-top: 40px;
+  margin: auto;
+  display: block;
+}
+footer {
+  background-color: #a491d3ff;
+  color: #252323;
+  text-align: center;
+  font-family: campaign, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px; 
+  height: 100px;
+}
+
+#footertext{
+  color: #252323;
+  text-align: center;
+  font-family: "fairwater-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px
+}
+
