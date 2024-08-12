@@ -67,10 +67,12 @@ nav {
 
 #mainHeading {
   color: red;
+  visibility: hidden;
 }
 
 .funParagraph {
   color: green;
+  visibility: hidden;
 }
 img{
   width: 300px;
